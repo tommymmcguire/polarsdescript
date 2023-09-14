@@ -2,7 +2,7 @@ install:
 	pip install -r requirements.txt
 
 lint:
-	pylint your_python_module.py
+	pylint pals.py
 
 test:
 	python -m unittest discover
