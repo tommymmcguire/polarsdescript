@@ -1,12 +1,17 @@
 install:
-	pip install -r requirements.txt
-
-lint:
-	pylint pals.py
+	pip install --upgrade pip &&\
+		pip install -r requirements.txt
 
 test:
-	python -m unittest discover
+	pytest
 
-run:
-	python your_script.py
+format:	
+	black *.py 
 
+lint:
+	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
+
+summary:
+	python main.py
+		
+all: install lint format test
