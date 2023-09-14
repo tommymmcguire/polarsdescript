@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/tommymmcguire/pandasdescript/actions/workflows/python.yml/badge.svg)](https://github.com/tommymmcguire/pandasdescript/actions)
+[![Build Status](https://github.com/tommymmcguire/polarsdescript/actions/workflows/python.yml/badge.svg)](https://github.com/tommymmcguire/polarssdescript/actions)
 
 ## This project uses a python template and the Pandas library to perform descriptive statistics for IDS 706
 
