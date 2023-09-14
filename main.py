@@ -11,6 +11,14 @@ def read_csv_and_count_rating():
     rating_count = 0
     for _ in df['rating']:
         rating_count += 1
+    rl = df['rating'].to_list()
+    rating_sum = 0
+    for n in rl:
+        rating_sum += int(n)
+    rating_avg = rating_sum/rating_count
+    print(f"Count of rating is {rating_count}")
+    print(f"Sum of rating is {rating_sum}")
+    print(f"Average rating is {rating_avg}")
     return rating_count
 
 def visualize_rating_histogram():
