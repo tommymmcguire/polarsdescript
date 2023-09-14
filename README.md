@@ -1,6 +1,7 @@
 [![Build Status](https://github.com/tommymmcguire/polarsdescript/actions/workflows/python.yml/badge.svg)](https://github.com/tommymmcguire/polarssdescript/actions)
 
-## This project uses a python template and the Pandas library to perform descriptive statistics for IDS 706. I created a function that counted the number of ratings (rows) and tested it with a function in test_main.py
+## This project uses a python template and the Pandas library to perform descriptive statistics for IDS 706. 
+# In this project I created a function that counted the number of ratings (rows) and tested it with a function in test_main.py to assert that the data was correct. Then I calculated the average rating of the wines, and designed a histogram to show the distribution of wine ratings. 
 
 * Visualization of the distribution of wine ratings
   
