@@ -36,11 +36,11 @@ def read_csv_and_count_rating():
 
     # Open the Markdown file for writing
     with open(OUTPUT_FILE, 'w') as markdown_file:
-        markdown_file.write(f"Count of rating is {rating_count}\n")
-        markdown_file.write(f"Sum of rating is {rating_sum}\n")
-        markdown_file.write(f"Average rating is {rating_avg}\n")
-        markdown_file.write(f"Median of rating is {median_rating}\n")
-        markdown_file.write(f"Standard deviation of rating is {stddev_rating}\n")
+        markdown_file.write(f"Count of rating is: {rating_count}\n\n")
+        markdown_file.write(f"Sum of rating is: {rating_sum}\n\n")
+        markdown_file.write(f"Average rating is: {rating_avg}\n\n")
+        markdown_file.write(f"Median of rating is: {median_rating}\n\n")
+        markdown_file.write(f"Standard deviation of rating is: {stddev_rating}\n\n")
 
     return rating_count, median_rating, stddev_rating
 
