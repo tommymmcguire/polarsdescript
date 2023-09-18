@@ -1,8 +1,3 @@
-import polars as pl
-import matplotlib.pyplot as plt
-
-CSV_URL = "https://raw.githubusercontent.com/paiml/wine-ratings/main/wine-ratings.csv"
-OUTPUT_FILE = "output.md"  # Specify the Markdown file name
 
 import polars as pl
 import matplotlib.pyplot as plt
