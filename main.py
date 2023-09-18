@@ -37,7 +37,7 @@ def read_csv_and_count_rating():
         markdown_file.write(f"Median of rating is: {median_rating}\n\n")
         markdown_file.write(f"Standard deviation of rating is: {stddev_rating}\n\n")
 
-    return rating_count, median_rating, stddev_rating
+    return rating_count, rating_avg, median_rating, stddev_rating
 
 
 def visualize_rating_histogram():
